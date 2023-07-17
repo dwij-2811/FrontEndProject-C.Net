@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SoledoutUI</id>
+    <version>1.0.0</version>
+    <authors>SoledoutUI</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="CSharpDiscordWebhook" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Extended.Wpf.Toolkit" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="LiveCharts.Wpf.NetCore3" version="0.9.7" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+        <dependency id="OxyPlot.Wpf" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="ScottPlot.WPF" version="4.1.45" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\dwij0\OneDrive\Desktop\FTL BETA - Copy\UI\SoledoutUI_20\bin\Release\net6.0-windows\SoledoutUI.runtimeconfig.json" target="lib\net6.0-windows7.0\SoledoutUI.runtimeconfig.json" />
+    <file src="C:\Users\dwij0\OneDrive\Desktop\FTL BETA - Copy\UI\SoledoutUI_20\bin\Release\net6.0-windows\SoledoutUI.dll" target="lib\net6.0-windows7.0\SoledoutUI.dll" />
+  </files>
+</package>

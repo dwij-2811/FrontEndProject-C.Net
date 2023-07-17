@@ -1,0 +1,144 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+    <AssemblyVersion>1.0.0.8</AssemblyVersion>
+    <StartupObject>SoledoutUI.App</StartupObject>
+    <SignAssembly>False</SignAssembly>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="37b8112791f2529ffe4882412b541c94.gif" />
+    <None Remove="784379_00.png.png" />
+    <None Remove="BG.jpeg" />
+    <None Remove="close.png" />
+    <None Remove="command.png" />
+    <None Remove="copying.png" />
+    <None Remove="credit-card.png" />
+    <None Remove="delete.png" />
+    <None Remove="diskette.png" />
+    <None Remove="draw.png" />
+    <None Remove="email.png" />
+    <None Remove="graph.png" />
+    <None Remove="id-card.png" />
+    <None Remove="inbox.png" />
+    <None Remove="location.png" />
+    <None Remove="logo.ico" />
+    <None Remove="logout.png" />
+    <None Remove="outbox.png" />
+    <None Remove="plus.png" />
+    <None Remove="pp.gif" />
+    <None Remove="reload.png" />
+    <None Remove="settings.png" />
+    <None Remove="Soledout_Discord.png" />
+    <None Remove="test.png" />
+    <None Remove="to-do-list.png" />
+    <None Remove="wallpaper1.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSharpDiscordWebhook" Version="2.2.0" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.2.0" />
+    <PackageReference Include="LiveCharts.Wpf.NetCore3" Version="0.9.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="OxyPlot.Wpf" Version="2.1.0" />
+    <PackageReference Include="ScottPlot.WPF" Version="4.1.45" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="IronPython">
+      <HintPath>D:\Downloads\IronPython.3.4.0-alpha1\net5.0\IronPython.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting">
+      <HintPath>D:\Downloads\IronPython.3.4.0-alpha1\net5.0\Microsoft.Scripting.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="37b8112791f2529ffe4882412b541c94.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="784379_00.png.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="BG.jpeg" />
+    <Resource Include="close.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="command.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="copying.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="credit-card.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="delete.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="diskette.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="draw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="email.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="graph.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="id-card.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="inbox.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="location.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="logo.ico" />
+    <Resource Include="logout.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="outbox.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="plus.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pp.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="reload.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="settings.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Soledout_Discord.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="test.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="to-do-list.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="wallpaper1.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="MainWindow - Copy.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

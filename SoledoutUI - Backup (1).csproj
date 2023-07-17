@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <StartupObject>SoledoutUI.App</StartupObject>
+    <SignAssembly>False</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BG.jpeg" />
+    <None Remove="logo.ico" />
+    <None Remove="Soledout_Discord.png" />
+    <None Remove="wallpaper1.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSharpDiscordWebhook" Version="2.2.0" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="IronPython">
+      <HintPath>D:\Downloads\IronPython.3.4.0-alpha1\net5.0\IronPython.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting">
+      <HintPath>D:\Downloads\IronPython.3.4.0-alpha1\net5.0\Microsoft.Scripting.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BG.jpeg" />
+    <Resource Include="logo.ico" />
+    <Resource Include="Soledout_Discord.png" />
+    <Resource Include="wallpaper1.jpeg" />
+  </ItemGroup>
+
+</Project>
