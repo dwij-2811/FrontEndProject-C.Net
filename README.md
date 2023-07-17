@@ -1,6 +1,6 @@
 This is a demo project in C#/.Net for a desktop front end application.
 
-# This project includes the following:
+This project includes the following:
 
 ## **Auth Page**
 
